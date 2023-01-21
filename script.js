@@ -32,6 +32,7 @@ const buyIphone = document.getElementById("buy-iphone").addEventListener("click"
     const number = document.getElementById("iphone-number").innerText;
     const Number = parseFloat(number);
     document.getElementById("iphone-number").innerText= Number+1;
+    const iphoneAddShow= document.getElementById("iphone-add-show").style.display="block";
 })
 const buyMacbook = document.getElementById("buy-macbook").addEventListener("click",function(){
     const macbookPrice = document.getElementById("macbook-price").innerText;
@@ -43,6 +44,7 @@ const buyMacbook = document.getElementById("buy-macbook").addEventListener("clic
     const number = document.getElementById("macbook-number").innerText;
     const Number = parseFloat(number);
     document.getElementById("macbook-number").innerText= Number+1;
+    const macbookAddShow= document.getElementById("macbook-add-show").style.display="block";
 })
 const buyWatch = document.getElementById("buy-watch").addEventListener("click",function(){
     const watchPrice = document.getElementById("watch-price").innerText;
@@ -54,6 +56,7 @@ const buyWatch = document.getElementById("buy-watch").addEventListener("click",f
     const number = document.getElementById("watch-number").innerText;
     const Number = parseFloat(number);
     document.getElementById("watch-number").innerText= Number+1;
+    const watchAddShow= document.getElementById("watch-add-show").style.display="block";
 })
 const iphoneMinusBtn = document.getElementById("iphone-minus").addEventListener("click",function(){
     const iphonePrice = document.getElementById("iphone-price").innerText;
@@ -98,6 +101,7 @@ const iphonePlusBtn = document.getElementById("iphone-plus").addEventListener("c
     const number = document.getElementById("iphone-number").innerText;
     const Number = parseFloat(number);
     document.getElementById("iphone-number").innerText= Number+1;
+    const iphoneAddShow= document.getElementById("iphone-add-show").style.display="block";
 })
 const macbookPlusBtn = document.getElementById("macbook-plus").addEventListener("click",function(){
     const macbookPrice = document.getElementById("macbook-price").innerText;
@@ -109,6 +113,7 @@ const macbookPlusBtn = document.getElementById("macbook-plus").addEventListener(
     const number = document.getElementById("macbook-number").innerText;
     const Number = parseFloat(number);
     document.getElementById("macbook-number").innerText= Number+1;
+    const macbookAddShow= document.getElementById("macbook-add-show").style.display="block";
 })
 const watchPlusBtn = document.getElementById("watch-plus").addEventListener("click",function(){
     const watchPrice = document.getElementById("watch-price").innerText;
@@ -120,4 +125,5 @@ const watchPlusBtn = document.getElementById("watch-plus").addEventListener("cli
     const number = document.getElementById("watch-number").innerText;
     const Number = parseFloat(number);
     document.getElementById("watch-number").innerText= Number+1;
+    const watchAddShow= document.getElementById("watch-add-show").style.display="block";
 })
