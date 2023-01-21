@@ -51,6 +51,10 @@ details{
 button{
     margin-bottom: 7px;
 }
+.submitBtn{
+    display: none;
+    width: 100%;
+}
 .view{
     margin: 100px 0px 60px 30px;
     padding: 15px;
